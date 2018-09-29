@@ -11,12 +11,14 @@
   <title>JBNet Solutions</title>
 
   <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
+<link rel="stylesheet" href="css/libs/animate.css">
 
   <!-- Custom fonts for this template -->
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
   <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Istok+Web" rel="stylesheet">
+		
 
   <link type="text/css" rel="stylesheet" href="css/owl.carousel.css" />
   <link type="text/css" rel="stylesheet" href="css/owl.theme.default.css" />
@@ -24,6 +26,7 @@
   <!-- Custom styles for this template -->
   <link href="css/landing-page.css" rel="stylesheet">
   <link href="css/custom.css" rel="stylesheet">
+<link rel="stylesheet" href="css/animations.css" type="text/css">
   <link rel="icon" type="image/png" href="img/faviconjbnet.png"/>
 
 </head>
@@ -33,29 +36,29 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container">
-      <a class="navbar-brand" href="#"><img src="images/logo.jpg" alt="JBNet Solutions Logo"></a>
+      <a class="navbar-brand" href="#"><img class="heartbeat" src="img/jbnet-logo.png" alt="JBNet Solutions Logo""></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="#home">HOME</a>
+            <a class="nav-link hover-shadow-animation" href="#home">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#about">ABOUT</a>
+            <a class="nav-link hover-shadow-animation" href="#about">About</a>
           </li>
           <li class="nav-item">
-            <a id="animate" class="nav-link" href="#services">SERVICES</a>
+            <a id="animate" class="nav-link hover-shadow-animation" href="#services">Services</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#clients">CLIENTS</a>
+            <a class="nav-link hover-shadow-animation" href="#clients">Clients</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#team">TEAM</a>
+            <a class="nav-link hover-shadow-animation" href="#team">Team</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#contact">CONTACT</a>
+            <a class="nav-link hover-shadow-animation" href="#contact">Contact</a>
           </li>
         </ul>
       </div>
@@ -67,12 +70,12 @@
     <header class="masthead text-white text-center">
       <div class="overlay"></div>
 
-      <div class="container">
+      <div class="container" data-sequence='500'>
         <div class="row">
           <div class="col-xl-9 mx-auto">
-            <h1 class="mb-5 title">We are JBNet Solutions</h1>
-            <p>
-              A team of young developers, fully motivated and eager to deliver the best results for your project!
+            <img data-id='1' class="responsive-image animate-it animate-logo" src="img/jbnet-front.png" alt="">
+            <p class="animate-it animate-logo" data-id='2'>
+              A team of young developers, fully motivated and eager to deliver the best results for your business.
             </p>
           </div>
           <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
@@ -99,60 +102,88 @@
   <section id="about" class="features-icons bg-light text-center">
     <div class="container">
       <div class="row">
-        <div class="col-lg-4">
+
+<!-- Custom websites -->
+        <div class="col-lg-4 wow fadeInDown">
           <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
             <div class="features-icons-icon d-flex">
               <i class="icon-screen-desktop m-auto text-primary"></i>
             </div>
-            <h3>Fully Responsive</h3>
-            <p class="lead mb-0">This theme will look great on any device, no matter the size!</p>
+            <h3 class="wow fadeInDown">Custom Websites/<br> Fully Responsive</h3>
+            <p class="lead mb-0">You want a unique website? This is the right place to be. We will design a custom,unique website according to your needs which will be fully responsive for every screen (e.g mobile phones,desktop,tablet)</p>
           </div>
         </div>
-        <div class="col-lg-4">
+
+<!-- Mobile Apps -->
+        <div class="col-lg-4 wow fadeInDown">
           <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
             <div class="features-icons-icon d-flex">
-              <i class="icon-layers m-auto text-primary"></i>
+              <i class="fab fa-android m-auto text-primary"></i>
             </div>
-            <h3>Bootstrap 4 Ready</h3>
-            <p class="lead mb-0">Featuring the latest build of the new Bootstrap 4 framework!</p>
+            <h3>Mobile Apps</h3>
+            <p class="lead mb-0">Even if you need an android app, or iOS, or both, we can deliver a high-quality result that will satisfy your needs.</p>
           </div>
         </div>
-        <div class="col-lg-4">
+
+<!-- E-shops -->
+        <div class="col-lg-4 wow fadeInDown">
           <div class="features-icons-item mx-auto mb-0 mb-lg-3">
             <div class="features-icons-icon d-flex">
-              <i class="icon-check m-auto text-primary"></i>
+              <i class="fas fa-shopping-cart m-auto text-primary"></i>
             </div>
-            <h3>Easy to Use</h3>
-            <p class="lead mb-0">Ready to use with your own content, or customize the source files!</p>
+            <h3>E-shops</h3>
+            <p class="lead mb-0">We are also experienced on delivering high-quality eshops. Even if you want a custom designed eshop, or a regular one, you can provide us your needs and we will deliver the best result that will make your business stand out from the crowd.</p>
           </div>
         </div>
-      </div>
-    </div>
+
+
+<!-- Corporate & Brand Identity design -->
+<div class="col-lg-4 wow fadeInDown">
+          <div class="features-icons-item mx-auto mb-0 mb-lg-3">
+            <div class="features-icons-icon d-flex">
+              <i class="fas fa-palette m-auto text-primary"></i>
+            </div>
+            <h3>Corporate & Brand Identity design</h3>
+            <p class="lead mb-0">If you don't already have one, or you are not satisfied of the one you already have, we can desing a new corporate & brand identity that will make your business look awesome.</p>
+          </div>
+        </div>
+
+<div class="col-lg-4 wow fadeInDown">
+          <div class="features-icons-item mx-auto mb-0 mb-lg-3">
+            <div class="features-icons-icon d-flex">
+              <i class="far fa-handshake m-auto text-primary"></i>
+            </div>
+            <h3>Trustfull relationships</h3>
+            <p class="lead mb-0">If you are looking for a long-term relationship with someone that will look into every detail of your business, and make it stand out, this is the right place. <br> We are looking for long-term,trustfull relationships with you, which will give us the opportunity to understand better your needs, and make your business stand out from the crowd.</p>
+          </div>
+        </div>
+
+</div>
+<!-- End About -->
   </section>
 
   <!-- Image Showcases -->
   <section id="services" class="showcase">
     <div class="container-fluid p-0">
       <div class="row no-gutters">
-
         <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/bg-showcase-1.jpg');"></div>
-        <div class="col-lg-6 order-lg-1 my-auto showcase-text">
-          <h2>Fully Responsive Design</h2>
-          <p class="lead mb-0">When you use a theme created by Start Bootstrap, you know that the theme will look great on any device, whether it's a phone, tablet, or desktop the page will behave responsively!</p>
+        <div class="col-lg-6 order-lg-1 my-auto showcase-text wow fadeInLeft">
+          <h2>Custom Websites/ <br> E-shops/ <br> Fully Responsive</h2>
+          <p class="lead mb-0">We are motivated to design the best custom websites and e-shops that will make your business look awesome and unique,as well as stand out from the classic websites that your competitors use. Moreover, your website will be fully responsive for any device and screen,which will give you the potential to reach thousands of users.</p>
         </div>
       </div>
       <div class="row no-gutters">
         <div class="col-lg-6 text-white showcase-img" style="background-image: url('img/bg-showcase-2.jpg');"></div>
-        <div class="col-lg-6 my-auto showcase-text">
-          <h2>Updated For Bootstrap 4</h2>
-          <p class="lead mb-0">Newly improved, and full of great utility classes, Bootstrap 4 is leading the way in mobile responsive web development! All of the themes on Start Bootstrap are now using Bootstrap 4!</p>
+        <div class="col-lg-6 my-auto showcase-text wow fadeInRight">
+          <h2>Mobile Apps</h2>
+          <p class="lead mb-0">Using cutting-edge technologies, and high-quality code, we are able to build your mobile application to be fully compatible with any operating system.</p>
         </div>
       </div>
       <div class="row no-gutters">
-        <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/bg-showcase-3.jpg');"></div>
-        <div class="col-lg-6 order-lg-1 my-auto showcase-text">
-          <h2>Easy to Use &amp; Customize</h2>
-          <p class="lead mb-0">Landing Page is just HTML and CSS with a splash of SCSS for users who demand some deeper customization options. Out of the box, just add your content and images, and your new landing page will be ready to go!</p>
+        <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/services.jpg');"></div>
+        <div class="col-lg-6 order-lg-1 my-auto showcase-text wow fadeInLeft">
+          <h2>Trust Us.</h2>
+          <p class="lead mb-0">Even if you want a custom website, or an e-shop, or a mobile app, or even a corporate identity design, this is the right place to be. We take our work seriously, and we deliver always on time. <br><br> Our team has worked on a variety of projects, and has the experience to deliver awesome results. Trust us, and bring the online presence of your business to a whole new level.</p>
         </div>
       </div>
     </div>
@@ -168,49 +199,41 @@
           <div class="col-md-10 col-md-offset-1">
             <div id="testimonial-slider" class="owl-carousel owl-theme">
               <div class="testimonial">
-                <div class="testimonial-meta">
+                <div class="testimonial-meta wow fadeInDown">
                   <img src="img/portfolio/manoslogo.jpg" alt="Manos logo">
                   <h3 class="white-text">Manos Rent A Car</h3>
                   <span>Android Application</span>
                 </div>
                 <p class="white-text">Custom Booking System - Private Android Application</p>
-                <a href="#" class="button">Find More</a>
+                <a href="#" rel="external" target="_blank" class="button">Find More</a>
               </div>
-              <div class="testimonial">
+              <div class="testimonial wow fadeInDown">
                 <div class="testimonial-meta">
                   <img src="img/portfolio/oldslogo.png" alt="Old school logo">
                   <h3 class="white-text">Old School Barber Shop</h3>
                   <span>Website</span>
                 </div>
-                <p class="white-text">Custom website and booking appointments system sith client/admin sides.</p>
-                <a href="#" class="button">Find More</a>
+                <p class="white-text">Custom website and booking appointments system with client/admin sides.</p>
+                <a href="#" rel="external" target="_blank" class="button">Find More</a>
               </div>
-              <div class="testimonial">
+              <div class="testimonial wow fadeInDown">
                 <div class="testimonial-meta">
                   <img src="img/portfolio/tplogo5.png" alt="tenplusone logo">
                   <h3 class="white-text">Ten Plus One</h3>
                   <span>Website - Android Application</span>
                 </div>
-                <p class="white-text">We developed ...</p>
-                <a href="#" class="button">Find More</a>
+                <p class="white-text">Custom website,custom android app,custom content management system.</p>
+                <a href="http://www.tenplusone.gr" rel="external" target="_blank" class="button">Find More</a>
               </div>
-              <div class="testimonial">
+              
+              <div class="testimonial wow fadeInDown">
                 <div class="testimonial-meta">
-                  <img src="img/portfolio/pralinel-logo.png" alt="Pralinel logo">
-                  <h3 class="white-text">Pralinel</h3>
-                  <span>Website</span>
-                </div>
-                <p class="white-text">We developed ...</p>
-                <a href="#" class="button">Find More</a>
-              </div>
-              <div class="testimonial">
-                <div class="testimonial-meta">
-                  <img src="img/portfolio/pralinel-logo.png" alt="Dance O Clock logo">
+                  <img src="img/portfolio/danceoclock-logo.png" alt="Dance O Clock logo">
                   <h3 class="white-text">Dance O Clock</h3>
                   <span>Website</span>
                 </div>
-                <p class="white-text">We developed ...</p>
-                <a href="#" class="button">Find More</a>
+                <p class="white-text">Custom designed website in favour of Dance o'Clock.</p>
+                <a href="http://www.danceoclock.com" rel="external" target="_blank" class="button">Find More</a>
               </div>
             </div>
           </div>
@@ -222,7 +245,7 @@
 
   <section id="team" class="testimonials text-center bg-light">
     <div class="container">
-      <h2>The team</h2>
+      <h2>Our team</h2>
       <section>
         <div class="container">
           <div class="row flex-center sm-no-flex">
@@ -283,7 +306,7 @@
                       <img src="img/team/dimitris.jpg" alt="Dimitris M.">
                       <div class="member-info">
                         <h3>Dimitris M.</h3>
-                        <p>Web Developer</p>
+                        <p>Graphic Designer</p>
                       </div>
                     </div>
                   </div>
@@ -302,10 +325,10 @@
             </div><!-- /end col-md-8 -->
 
             <div class="pull-left col-md-4 sm-text-center">
-              <div class="team-overview">
+              <div class="team-overview wow fadeInDown">
                 <h2>Who Are We?</h2>
                 <a>Meet the Entire Team</a>
-                <p><div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci quae nesciunt officia! Autem, nam eum voluptatem, esse voluptatibus deleniti tempora laboriosam sequi pariatur, explicabo itaque. Fuga, deserunt? Repudiandae, neque qui.</div></p>
+                <p><div>We are a team of young developers, with innovative design ideas. We are open minded and we have worked in a variety of projects. Always eager to deliver high-quality websites,e-shops and mobile apps using cutting edge technologies and code, we will be there for you for whatever you may need.</div></p>
               </div>
             </div><!-- /end col-md-4 -->
           </div><!-- /end row -->
@@ -372,7 +395,7 @@
             </li>
             <li class="list-inline-item mr-3">
               <a href="#">
-                <i class="fab fa-twitter-square fa-2x fa-fw"></i>
+                <i class="fab fa-linkedin-in square fa-fw fa-2x"></i>
               </a>
             </li>
             <li class="list-inline-item">
@@ -392,11 +415,34 @@
   </div>
   <!-- /Preloader -->
 
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+  <script  src="js/index.js"></script>
+
+
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script type="text/javascript" src="js/owl.carousel.min.js"></script>
   <script src="js/main.js"></script>
+  <script src="js/wow.js"></script>
+  <script>
+    wow = new WOW(
+      {
+        animateClass: 'animate-it',
+        offset:       100,
+        callback:     function(box) {
+          console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+        }
+      }
+    );
+    wow.init();
+    document.getElementById('moar').onclick = function() {
+      var section = document.createElement('section');
+      section.className = 'section--purple wow fadeInDown';
+      this.parentNode.insertBefore(section, this);
+    };
+  </script>
+
 
 </body>
 
