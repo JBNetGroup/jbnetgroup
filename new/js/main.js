@@ -98,7 +98,7 @@ $('#testimonial-slider').owlCarousel({
 $('#email-form').submit(function(){
   $.ajax({
     type: "POST",
-    url: 'contact.php',
+    url: '../php/contact.php',
     data: {email: $('#email').val()},
     success: after_form_submitted,
     dataType: 'json'
