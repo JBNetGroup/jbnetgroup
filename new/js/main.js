@@ -93,26 +93,3 @@ $('#testimonial-slider').owlCarousel({
 		}
 	}
 });
-
-
-$('#email-form').submit(function(){
-  $.ajax({
-    type: "POST",
-    url: '../php/contact.php',
-    data: {email: $('#email').val()},
-    success: after_form_submitted,
-    dataType: 'json'
-  });
-  return false;
-});
-
-function after_form_submitted(data)
-{
-  if (data == '200'){
-    console.log("OK");
-    location.reload();
-  }
-  else{
-    console.log("Error. " + data);
-  }
-}
